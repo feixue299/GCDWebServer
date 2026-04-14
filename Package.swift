@@ -8,13 +8,13 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "GCDWebServers",
-            targets: ["GCDWebServers"]),
+            name: "GCDWebServer",
+            targets: ["GCDWebServer"]),
     ],
     targets: [
         .target(
-            name: "GCDWebServers",
-            path: "Sources/GCDWebServers",
+            name: "GCDWebServer",
+            path: "Sources/GCDWebServer",
             publicHeadersPath: "include",
             cSettings: [
                 .headerSearchPath("."),
